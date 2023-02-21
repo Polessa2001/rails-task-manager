@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  background-color: rgba(158, 149, 105, 0.493);
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+ }
+ a {
+  text-decoration: none;
+  color:black;
+ }
+ .delete-link:hover {
+  text-decoration: none;
+  color:rgb(240, 152, 0);
+ }
